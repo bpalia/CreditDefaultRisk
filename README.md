@@ -167,6 +167,8 @@ Analyzing the final model, it is obvious that the most import feature is target 
 
 Credit Default Risk Prediction Service is deployed on `Google Cloud Platform`. It can be reached via link at: https://home-credit-fastapi-r5bhc3nhna-lm.a.run.app/app/. The model provides predictions on the preprocessed data. To test the model, a small [example dataset](X_test_example.csv) can be used. Model is deployed using `Gradio` interface and allows to select row from the dataset for prediction. It is allowed to use a different prediction threshold, which may better reflect business needs.
 
+![](img/app.png)
+
 ## Recommendations
 * Fully automating default risk prediction is a difficult task, and thus, **expert knowledge** should be used to make a final decision on accepting credit applications.
 * Bearing in mind that applicants come from different regions, it might be useful to **account for differences in incoming data**.
