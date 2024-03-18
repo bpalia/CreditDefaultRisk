@@ -1,0 +1,11 @@
+data/
+data_agg/
+data_preprocessed/
+job_files/
+misc/
+output/
+__pycache__/
+*.pkl
+*.db
+*.log
+idx_*.csv
